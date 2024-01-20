@@ -13,7 +13,7 @@
         "date": "11/12/2023",
         "title": "TODO-APP",
         "description": "This is the sample description about the project details. The more details the more details and evenually more details because I don't have anything to write",
-        "url": "https://todo-appp-rose.vercel.app/",
+        "url": "https://todo-appp-rose.vercel.app",
         "imgSrc": "https://cdn.pixabay.com/photo/2020/05/30/09/53/todo-lists-5238324_1280.jpg",
         "github":"https://github.com/YashSharma001/todo_app"
       },
@@ -32,9 +32,9 @@
         "date": "15/1/2024",
         "title": "PORTFOLIO",
         "description": "This is the sample description about the project details. The more details the more details and evenually more details because I don't have anything to write",
-        "url": "",
+        "url": "https://portfolio-topaz-iota.vercel.app",
         "imgSrc": "https://cdn.pixabay.com/photo/2020/03/19/21/25/cactus-4948833_960_720.jpg",
-        "github":""
+        "github":"https://github.com/YashSharma001/portfolio"
       }
     ]
   }
