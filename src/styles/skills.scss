@@ -1,0 +1,68 @@
+.skillh1 {
+    margin: 6rem 5rem 0 5rem;
+    font: 900 3rem $text1;
+    
+}
+
+#skills {
+    width: 100%;
+    height: 95vh;
+    background-color: $color3;
+    color: white;
+    overflow: hidden;
+margin-top: 2rem;
+
+    .skill-section {
+        display: grid;
+        margin: 6rem;
+        grid-template-columns: repeat(2, 1fr);
+        height: 60%;
+        gap: 1rem;
+
+        >* {
+            width: 100%;
+            height: 100%;
+            background-color: $color7;
+            display: flex;
+            flex-direction: column;
+            transition: all 0.3s;
+            align-items: center;
+            justify-content: center;
+
+            &:hover {
+                box-shadow: 0 0 10px 5px $color5;
+            }
+
+            .skill-card {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                >h2 {
+                    font: 500 2rem $text1;
+                    margin: 0.5rem 0;
+                    text-decoration: underline;
+                    letter-spacing: 3px;
+                }
+
+                >ul {
+                    font: 100 1rem $text2;
+                    letter-spacing: 1px;
+                }
+            }
+        }
+
+        .skillBox1 {
+            grid-row: 1/3;
+            background-color: $color10;
+        }
+
+        .skillBox2 {
+            background-color: $color7;
+        }
+
+        .skillBox3 {
+            background-color: $color8;
+        }
+    }
+}

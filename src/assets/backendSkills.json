@@ -1,0 +1,17 @@
+{
+    "bSkills": [
+        {
+            "name": "Node.js",
+            "level": "intermediate"
+        },
+        {
+            "name": "Express",
+            "level": "intermediate"
+        },
+        {
+            "name": "MongoDB",
+            "level": "intermediate"
+        }
+    ]
+}
+

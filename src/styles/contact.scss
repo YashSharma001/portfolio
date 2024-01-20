@@ -1,0 +1,69 @@
+#contact {
+    min-height: 90vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    >section {
+        background-color: $color1;
+        width: 100%;
+        height: 100%;
+
+        >form {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+
+            >h2 {
+                text-align: center;
+                font: 100 2.7rem $text2;
+                letter-spacing: 5px;
+                text-transform: uppercase;
+                margin: 2rem;
+            }
+
+            >input,
+            >textarea,
+            >button {
+                padding: 0.8rem;
+                width: 50%;
+                outline: none;
+                font: 400 0.9rem $text1;
+                border: none;
+                margin: 0.3rem;
+                border-radius: 10px;
+            }
+
+            >button {
+                cursor: pointer;
+                background-color: $color7;
+                color: $color1;
+                font: 600 1rem $text1;
+                text-transform: uppercase;
+                margin: 3rem;
+
+                &:hover {
+                    background-color: $color9;
+                    color: black;
+                }
+            }
+        }
+    }
+
+    >aside {
+        width: 100%;
+        height: 100%;
+        background-color: $color10;
+        display: grid;
+        place-items: center;
+
+        img {
+            width: 70%;
+            height: 70%;
+            object-fit: contain;
+            filter: drop-shadow(0 0 10px rgba(0, 0, 0, 1));
+            animation: upupdowndown 0.7s infinite linear alternate;
+        }
+    }
+}

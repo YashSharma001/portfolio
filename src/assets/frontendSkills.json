@@ -1,0 +1,23 @@
+{
+    "fSkills": [
+        {
+            "name": "React",
+            "level": "intermediate"
+        },
+        {
+            "name": "JavaScript",
+            "level": "intermediate"
+        },
+        {
+            "name": "HTML",
+            "level": "intermediate"
+        },
+        {
+            "name": "CSS",
+            "level": "intermediate"
+        }
+    ]
+}
+
+  
+  

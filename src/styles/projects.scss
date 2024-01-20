@@ -1,0 +1,94 @@
+ #projects {
+     margin: 5rem 5rem 3rem 5rem;
+     height: 100vh;
+
+
+     >h1 {
+         font: 900 3rem $text1;
+     }
+
+     .cards-container {
+         overflow-x: auto;
+
+
+         .cards {
+             display: flex;
+             justify-content: center;
+             margin: 1rem 0.2rem;
+             width: 120%;
+             //  flex-wrap: nowrap;
+
+
+             .Tilt {
+
+                 transition: transform 0.1s;
+
+                 &:hover {
+                     transform: rotate(5deg);
+
+                 }
+
+
+                 >div {
+                     border: 1px solid #ccc;
+                     border-radius: 8px;
+                     padding: 10px;
+                     margin: 1rem;
+                     width: 300px;
+                     height: 420px;
+                     display: flex;
+                     flex-direction: column;
+                     justify-content: center;
+                     align-items: center;
+
+                     &:hover {
+                         box-shadow: 0px 0px 10px 5px rgb(127, 25, 127);
+                     }
+
+
+                     >img {
+                         width: 100%;
+                         height: 50%;
+                         border-radius: 8px;
+                         object-fit: cover;
+                     }
+
+                     >h3 {
+                         font: 600 1.5rem $text1;
+                         letter-spacing: 3px;
+                         margin: 0.3rem;
+                     }
+
+                     >p {
+                         font: 100 1rem $text1;
+                         letter-spacing: 1px;
+                     }
+
+                     >div {
+                         display: flex;
+                         margin: 1rem 0;
+                         gap: 1rem;
+                         align-items: center;
+                         font-size: 0.8rem;
+                         justify-content: space-evenly;
+                         
+
+                         >a {
+                             background-color: $color7;
+                             color: $color1;
+                             padding: 0.5rem 1rem;
+                             transition: all 0.3s;
+
+
+                             &:hover {
+                                 background-color: $color4;
+                             }
+                         }
+                     }
+
+
+                 }
+             }
+         }
+     }
+ }
