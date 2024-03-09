@@ -5,7 +5,7 @@ import { BsArrowUpRight } from "react-icons/bs"
 import { IoLogoLinkedin } from "react-icons/io5";
 import { TfiAngleDoubleDown } from "react-icons/tfi";
 import mypic2 from '../assets/mypic2.png'
-import resume from "../assets/resume.pdf"
+import resume from "../assets/resume2.pdf"
 
 
 const Home = () => {
@@ -72,7 +72,7 @@ const Home = () => {
                     </article>
                     <aside>
                         <article data-special1>
-                            <p>Linkdn</p>
+                            <p>Linkedin</p>
                             <span><a href='https://www.linkedin.com/in/yash-sharma-57a6a8270/'> <IoLogoLinkedin /></a></span>
                         </article>
 
