@@ -47,7 +47,7 @@ const Home = () => {
             <section>
                 <div>
                     <motion.h1  {...animation.h1}>
-                        Hi,I Am <br /> Yash Sharma
+                        Hey,I Am <br /> Yash Sharma
                     </motion.h1>
                     <Typewriter options={{
                         strings: ["A Developer", "A Designer", "A Creater"],
